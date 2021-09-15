@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-and I am currently in my first year of four at the University of Loughborugh studying Mechanical engineering.
+I'm currently in my first year of four at the University of Loughborugh studying Mechanical engineering.
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
