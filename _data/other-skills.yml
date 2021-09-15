@@ -1,7 +1,19 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Fusion 360
+  percentage: 100
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: 3DS Max
+  percentage: 100
+  color: success
+  
+- name: Blender
+  percentage: 100
+  color: success
+  
+- name: Unity
+  percentage: 100
+  color: success
+  
+- name: Adobe Photoshop
+  percentage: 100
   color: success
