@@ -1,7 +1,7 @@
 ---
 name: Ferrari F40 in CAD
 tools: [Fusion 360, 3DS Max]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+image: https://wallpapercave.com/wp/wp2009459.jpg
 description: Rebuilding the Ferrari F40 in Fusion 360 using only Canvases and T-Splines!
 ---
 
