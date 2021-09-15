@@ -1,7 +1,7 @@
 ---
-name: Empty Project
-tools: [Node JS, JavaScript, HTML, CSS]
+name: Desgining my own concept car in CAD
+tools: [Fusion 360, 3DS Max]
 image:
-description: This project has no image or showcase page, but it is still a beautiful project inside out!
+description: Using Fusion 360, I build my own concept car by utilising and manipulating form bodies into the shapes that I desire.
 external_url: https://github.com/YoussefRaafatNasry
 ---
