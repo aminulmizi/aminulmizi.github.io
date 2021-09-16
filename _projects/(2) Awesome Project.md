@@ -2,7 +2,7 @@
 name: Ferrari F40 in CAD
 tools: [Fusion 360, 3DS Max]
 image: https://wallpapercave.com/wp/wp2009459.jpg
-description: Rebuilding the Ferrari F40 in Fusion 360 using only Canvases and T-Splines!
+description: Rebuilding the Ferrari F40 in Fusion 360 using Form bodies and T-Splines!
 ---
 
 # The Movies Project
