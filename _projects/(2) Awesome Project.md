@@ -7,7 +7,9 @@ description: Rebuilding the Ferrari F40 in Fusion 360 using Form bodies and T-Sp
 
 # Ferrari-F40 in CAD
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+Upon completing a LinkedIn Learning tutorial on Fusion 360, a CAD programme developed by AutoDesk, I began designing random objects
+in Fusion 360 to progress my skills in CAD. My first major project was desinging a model rocket which had product specifications. 
+This was the same rocket I used to simulate a rocket launch which you can check out here.
 
 ![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
 
