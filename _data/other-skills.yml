@@ -1,19 +1,19 @@
 - name: Fusion 360
   percentage: 100
-  color: info
+  color: success
 
 - name: 3DS Max
   percentage: 100
-  color: success
+  color: danger
   
 - name: Blender
   percentage: 100
-  color: success
+  color: muted
   
 - name: Unity
   percentage: 100
-  color: success
+  color: warning
   
 - name: Adobe Photoshop
   percentage: 100
-  color: success
+  color: dark grey
