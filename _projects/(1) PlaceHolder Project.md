@@ -33,6 +33,8 @@ description: Using a Raspberry Pi 4 and external modules, discover how I built a
 <figure>
     <img src="https://i.imgur.com/aToh02t.png?1" alt="Circuit Diagram using L298N Motor board" style="width:350px;height:300px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Circuit Diagram using L298N Motor board</strong></figcaption>
+    <img src="https://i.imgur.com/aToh02t.png?1" alt="Circuit Diagram using L298N Motor board" style="width:350px;height:300px;"/>
+    <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Circuit Diagram using L298N Motor board</strong></figcaption>
 </figure>
 </p>
 

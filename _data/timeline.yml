@@ -2,12 +2,14 @@
   from: 2013
   to: 2020
   description: Achieved grade 9-8 in all GCSE subjects I took. Studied Mathematics, Physics and Economics at A-Level where I attained,
-               <p>Mathematics - A*</p>
-               Physics - A
-               Economics - B
-               I mentored KS3 students whilst in 6th form and tutored AS-Level Mathematics. 
+               <ul style="list-style-type:disc;">
+               <li>Mathematics - A*</li>
+               <li>Physics - A</li>
+               <li>Economics - B</li>
+               </ul>
+               I also mentored KS3 students whilst in 6th form and tutored AS-Level Mathematics. 
 
-- title: BEng in Mechanical engineering, University Of Loughborough, UK
+- title: BEng in Mechanical engineering, Loughborough Univeristy, UK
   from: 2021
   to: 2025
-  description: First year undergraduate at Univeristy Of Loughborough. Enrolled into 4 year course with placement year.
+  description: First year undergraduate at Loughborough Univeristy. Enrolled into 4 year course with placement year.
