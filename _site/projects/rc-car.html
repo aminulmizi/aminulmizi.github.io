@@ -298,14 +298,18 @@
 
 <p>
     Next, using ChangeDutyCycle, I created three functions which could be called to change the speed of the motors. These functions were labelled 'High', 'Medium', and 'Low', this gave the user a variety of speed cycles to choose from. Finally, I added in the GPIO cleanup function to stop the code from running entirely, and a message to be printed into the console should the user not use the correct controls.
-<br />I have used comment lines throughout the script to explain what the code is doing, this script can be found on GitHub <a href="">here.</a>
+<br />I have used comment lines throughout the script to explain what the code is doing, this script can be found on GitHub <a href="https://github.com/aminulmizi/L298N.py">here</a> as 'L298N.py'.
 </p>
 
 <p>
     Below is a video displaying car going forwards, backwards, rotating right and left using the script
     <figure>
-        <img src="" alt="RC-Car in action" style="width: px;height: px;" />
-        <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong></strong></figcaption>
+        <img src="https://i.imgur.com/E0gyWHo.gif" alt="RC-Car in action" style="width:250px;height:350px;" />
+        <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>RC-Car going forwards then backwards</strong></figcaption>
+    </figure>
+    <figure>
+        <img src="https://i.imgur.com/esDFVep.gif" alt="RC-Car in action" style="width:250px;height:350px;" />
+        <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>RC-Car turning left then right</strong></figcaption>
     </figure>
 </p>
 
@@ -351,7 +355,7 @@
 </code>
     </pre>
     </blockquote>
-This code is much easier to read and locate any issues. After defining the left and right motor pins you would now be able to call any of the functions created for both motors, e.g <code>motor_left.moveF()</code>.
+This code is much easier to read and locate any issues. After defining the left and right motor pins you would now be able to call any of the functions created for both motors, e.g <code>motor_left.moveF()</code>. This script can also be found on GitHub <a href="https://github.com/aminulmizi/L298N.py">here</a> as 'L298N_V2.py'.
 </p>
 
 <p>And there you have it, a fully functional remote controlled car!</p>
