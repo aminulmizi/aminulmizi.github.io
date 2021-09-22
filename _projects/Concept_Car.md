@@ -5,7 +5,7 @@ image: https://i.imgur.com/z9RTiZU.png
 description: Using Fusion 360, I build my own concept car by utilising and manipulating form bodies into the shapes that I desire.
 
 ---
-<h1><u>Designing my own concept car in CAD</u></h1>
+<h1 style="text-align:center;"><u>Designing my own concept car in CAD</u></h1>
 
 <p>After building the <a href="https://aminulmizi.com/projects/ferrari-f40">Ferrari-F40</a> in CAD, I wanted to have my own go at designing and constructing a sportscar.</p>
 

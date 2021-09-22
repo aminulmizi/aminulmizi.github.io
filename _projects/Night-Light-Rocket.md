@@ -4,7 +4,7 @@ tools: [CNC Router, CAD, Lathe, D&T Tools]
 image: https://i.imgur.com/g00tnHr.png?1
 description: A Night Light Rocket that, when switched on, glows in the dark thanks to light catcher acrylic!
 ---
-<h1><u>Night Light Rocket</u></h1>
+<h1 style="text-align:center;"><u>Night Light Rocket</u></h1>
 
 <h3><u>Contents</u></h3>
 <a href="#Discs">Building Discs</a>
