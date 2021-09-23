@@ -246,7 +246,7 @@ description: Using a Raspberry Pi 4 and external modules, discover how I built a
 </p>
 <h3><a id="adjustments">Making adjustments to the code</a></h3>
 <p>
-    The code used worked well and did exactly what I wanted it to. However, the script was unecessarily long. Any piece of code written for motor 1 would then need to be rewritten for motor 2, which made finding any faults in the code a longer process than it needed to be. Instead rewriting the code by constructing a class using __init__ and having the parameters set to the enabler and input pins would mean I would have to describe the functions (forwards, backwards, stop, etc...) once. The code would look something like <a id="second code">this</a>:
+    The code used worked well and did exactly what I wanted it to. However, any piece of code written for motor 1 would then need to be rewritten for motor 2, this made the script unecessarily long. This is not good practice of writing code as it is not modular and compact, this can be improved. Instead rewriting the code by constructing a class using __init__ and having the parameters set to the enabler and input pins would mean I would have to describe the functions (forwards, backwards, stop, etc...) once. The code would look something like <a id="second code">this</a>:
 <blockquote>
         <pre>
             <code>
@@ -287,7 +287,7 @@ description: Using a Raspberry Pi 4 and external modules, discover how I built a
 </code>
     </pre>
     </blockquote>
-This code is much easier to read and locate any issues. After defining the left and right motor pins you would now be able to call any of the functions created for both motors, e.g <code>motor_left.moveF()</code>. This script can also be found on GitHub <a href="https://github.com/aminulmizi/L298N.py">here</a> as 'L298N_V2.py'. 
+This code is much easier to read. After defining the left and right motor pins you would now be able to call any of the functions created for both motors, e.g <code>motor_left.moveF()</code>. This script can also be found on GitHub <a href="https://github.com/aminulmizi/L298N.py">here</a> as 'L298N_V2.py'. 
 <br>Below is a video displaying car going forwards, backwards, rotating right and left using the script
     <figure>
         <img src="https://i.imgur.com/E0gyWHo.gif" alt="RC-Car in action" style="width:300px;height:350px;"/>
