@@ -28,7 +28,7 @@ description: Using a Raspberry Pi 4 and external modules, discover how I built a
 </p>
 
 <p>
-    My first attempt of powering the motor was by using a breadboard and breadboard power module, 2 10KΩ resistors, a PCF8591 chip (ADC chip) and a L293D chip (motor controller chip). I followed a freenove starter kit tutorial in setting up the circuit, this tutorial can be found <a href="https://github.com/Freenove/Freenove_Ultrasonic_Starter_Kit_for_Raspberry_Pi/blob/master/Tutorial.pdf">here</a> on page 162. 
+    My first attempt of powering the motor was by using a breadboard and breadboard power module, teo 10KΩ resistors, a PCF8591 chip (ADC chip) and a L293D chip (motor controller chip). I followed a freenove starter kit tutorial in setting up the circuit, this tutorial can be found <a href="https://github.com/Freenove/Freenove_Ultrasonic_Starter_Kit_for_Raspberry_Pi/blob/master/Tutorial.pdf">here</a> on page 162. 
     <figure>
         <img src="https://i.imgur.com/NO1CZre.jpg?3" alt="Breadboard setup" style="width:200px;height:250px;"/>
         <figcaption style="text-align: center; font-size: 15px; font-style: italic;"><strong>Breadboard Circuit</strong></figcaption>
@@ -50,7 +50,7 @@ description: Using a Raspberry Pi 4 and external modules, discover how I built a
 
 <h3><a id="chassis">Building the chassis</a></h3>
 <p>
-    Next I needed to construct the chassis to house all the components. Since I was keeping costs low as possible, cardboard was the best alternative to acrylics and plastics. In designing the chassis my main priority was having easy access to the major components so I could locate any issues without difficulty. Therefore, I chose to have two layers, the first base would store the battery pack , to power the Pi, and hold both motors which would be glued to the cardboard. It would also have a ball cast acting as a front pivot to allow the car to turn. The second layer would have the Pi, motor board and motor board power bank. 
+    Next I needed to construct the chassis to house all the components. Since I was keeping costs low as possible, cardboard was the best alternative to acrylics and plastics. In designing the chassis my main priority was having easy access to the major components so I could locate any issues without difficulty. Therefore, I chose to have two layers, the first base would store the battery pack (to power the Pi) and hold both motors which would be glued to the cardboard. It would also have a ball cast acting as a front pivot to allow the car to turn. The second layer would have the Pi, motor board and motor board power bank. 
     <figure>
         <img src="https://i.imgur.com/emSEA6Y.jpg?1" alt="Components layoput" style="width:600px;height:380px;"/>
         <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Component laypout, on the left is bottom layer and on the right, the top layer</strong></figcaption>
@@ -88,7 +88,7 @@ description: Using a Raspberry Pi 4 and external modules, discover how I built a
         <img src="https://i.imgur.com/mAsgI98.gif" alt="Components layoput" style="width:250px;height:350px;"/>
         <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong></strong></figcaption>
     </figure>
-    Both wheels turned at the same rate in the right direction which was perfect as it showed that the GPIO pins, motor board and motors were functional. Had either motor rotated backwards, swapping over the polarity with the wires would have fixed that issue.Now that I knew the RC-Car worked, it was time to detail the code more, to have more control over the car.
+    Both wheels turned at the same rate in the right direction which was perfect as it showed that the GPIO pins, motor board and motors were functional. Had either motor rotated backwards, swapping over the polarity with the wires would have fixed that issue.Now that I knew the RC-Car worked, it was time to detail the code, to have more control over the car.
 </p>
 
 <p>
@@ -235,13 +235,13 @@ description: Using a Raspberry Pi 4 and external modules, discover how I built a
 </p>
 <h3><a id="explain">Explaining the code</a></h3>
 <p>
-    To start of I have imported classes from the RPi.GPIO library to give me full control over the Pi's pins. I then assigned the GPIO pins I used to the different inputs on the L298N board. These numbers depend on what GPIO pins you use to connect to the motor controller board. Next, I made sure to setup the input and enabler ports on the motor controller board as outputs and afterwards set them to be off as a default setting. This would mean when I run the code the motors wont start spinning straight away. I set the frequency of the enabler pins for motor A and B at 100Hz, this sets the motor speed and current. 
+    To start of I have imported classes from the RPi.GPIO library to give me full control over the Pi's pins. I then assigned the GPIO pins I used to the different inputs on the L298N board. These numbers depend on what GPIO pins you use to connect to the motor controller board. Next, I made sure to setup the input and enabler ports on the motor controller board as outputs and afterwards set them to be off as a default setting. This would mean when I run the code, the motors wont start spinning straight away. I set the frequency of the enabler pins for motor A and B at 100Hz, this sets the motor speed and current. 
 </p>
 <p>Now that I've setup the pins, I can write the code which the user will engage with. First, I set the output to low by changing the DutyCycle to a low number, the number inside the DutyCycle function ranges from 0-100, with 100 being 100% output for the motor and 0 being 0%. Using print(), I explained to the user what controls they had, this text would be printed into the console. Controlling the motors output and direction was simple, moving the car forwards would be done by setting the output of In1 and In3 as HIGH and In2 and In4 as LOW. Backwards would be the opposite, In1 and 3 as LOW and In2 and 4 as HIGH. To stop, the output would be setting In1,2,3 and 4 as LOW. To turn left, the left motor would rotate backwards and the right would rotate forwards, this was done by setting In2 and 3 as HIGH. To turn right the opposite would need to be done.
 </p>
 
 <p>
-    Next, using ChangeDutyCycle, I created three functions which could be called to change the speed of the motors. These functions were labelled 'High', 'Medium', and 'Low', this gave the user a variety of speed cycles to choose from. Finally, I added in the GPIO cleanup function to stop the code from running entirely, and a message to be printed into the console should the user not use the correct controls.
+    Next, using ChangeDutyCycle, I created three functions which could be called to change the speed of the motors. These functions were labelled 'High', 'Medium', and 'Low', this gave the user a variety of speed cycles to choose from. Finally, I added in the GPIO cleanup function to stop the code from running entirely, and a message to be printed into the console should the user enter an incorrect key.
 <br>I have used comment lines throughout the script to explain what the code is doing, this script can be found on GitHub <a href="https://github.com/aminulmizi/L298N.py">here</a> as 'L298N.py'.
 </p>
 <h3><a id="adjustments">Making adjustments to the code</a></h3>

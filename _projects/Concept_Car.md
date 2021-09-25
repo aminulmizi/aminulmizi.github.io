@@ -1,6 +1,6 @@
 ---
 name: Desgining my own concept car in CAD
-tools: [Fusion 360, 3DS Max]
+tools: [Fusion 360]
 image: https://i.imgur.com/z9RTiZU.png
 description: Using Fusion 360, I build my own concept car by utilising and manipulating form bodies into the shapes that I desire.
 
@@ -68,7 +68,7 @@ I then used the trim tool to cutoff the excess material. The aim was to get a li
     <img src="https://i.imgur.com/6Wf1Mxo.png?1" alt="Headlight base" style="width:600px;height:320px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Inside headlight</strong></figcaption>
 </figure> 
-Next I began adding bodies into the shape which would illuminate the light. The 3 major light were made using cyclinders extruding outwards and the smallers balls were added using the line pattern feature. All these bodies were then mirrored to the other side of the car.
+Next I began adding bodies into the headlight body which will give of the light. The 3 major lights were made using cyclinders extruding outwards and the smallers balls were added using the line pattern feature. All these bodies were then mirrored to the other side of the car.
 <figure>
     <img src="https://i.imgur.com/BoCsr28.png?1" alt="Headlight base" style="width:600px;height:320px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Inside headlight</strong></figcaption>

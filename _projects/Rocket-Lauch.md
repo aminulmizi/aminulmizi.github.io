@@ -66,7 +66,7 @@ Next I added a clip to which the parachute would be strung to. I did this by sim
 </p>
 <h4><a id="cone">Nose cone</a></h4>
 <p>
-First, I sketched out the layout of the nose cone in 2d, which I did by using a T-spline and editing it until I was sattisfied with the shape. Next, I used the revolved the sketch 360°. 
+First, I sketched out the layout of the nose cone in 2d, which I did by using a T-spline and editing it until I was sattisfied with the shape. Next, I revolved the sketch 360°. 
 <figure>
     <img src="https://i.imgur.com/cxFNviH.png?1" alt="Nose cone" style="width:350px;height:250px;text-align:center;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic;"><strong>Designing the nose cone</strong></figcaption>
@@ -86,7 +86,7 @@ I needed to create a lip for the bottom of the nose cone, this would be inserted
 </p>
 
 <h3><a id="blender">Transferring to Blender</a></h3>
-<p>Now that the the rocket had been designined and built, I exported it as an .OBJ file from fusion 360 to the import it into blender. Exporting as an .OBJ file allows me to then add texured to an object, in this case the rocket.</p>
+<p>Now that the the rocket had been designined and built, I exported it as an .OBJ file from fusion 360 to the import it into blender. Exporting as an .OBJ file allows me to then add texures to an object, in this case the rocket.</p>
 
 <h3><a id="domain">Fluid domain box</a></h3>
 <p>I imported the file and made sure there was a plane underneath the rocket for it to stand on. I then added a cube to surround the whole rocket and platform. This was then turned into a fluid domain box so that the fire and smoke from the engine of the rocket would have something to bounce off of. 
@@ -106,7 +106,7 @@ Next I changed the settings to make sure I had access to all settings and could 
     <figcaption style="text-align: center; font-size: 15px; font-style: italic;"><strong>Settings for the engine</strong></figcaption>
 </figure>
 <h3><a id="wind">Adding a force field</a></h3>
-Now that the engine has been assigned and will give an output, I need to give it a direction to travel. To do this I added a assigned the rocket a 'force field' with a type 'wind', once again from the physics properties. I rotated the direction of the wind 180° so it faced downwards and then increased the radius and strength.
+Now that the engine has been assigned and will give an output, I need to give it a direction to travel. To do this I assigned the rocket a 'force field' with a type 'wind', once again from the physics properties. I rotated the direction of the wind 180° so it faced downwards and then increased the radius and strength.
 <figure>
     <img src="https://i.imgur.com/dV46I7K.png?2" alt="rocket" style="width:350px;height:450px;text-align:center;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic;"><strong>Adding wind</strong></figcaption>

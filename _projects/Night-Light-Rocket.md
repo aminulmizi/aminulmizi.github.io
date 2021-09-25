@@ -7,18 +7,22 @@ description: A Night Light Rocket that, when switched on, glows in the dark than
 <h1 style="text-align:center;"><u>Night Light Rocket</u></h1>
 
 <h3><u>Contents</u></h3>
-<a href="#Discs">Building Discs</a>
+<a href="#Discs">Creating the acrylic discs</a>
 <br><a href="#cone">Building the nose cone</a>
 <br><a href="#Base">Building the base</a>
 <br><a href="#components">Putting the components together</a>
 <br><a href="#Learning outcomes">Learning outcomes and what I would do different</a>
 
 <p>During my Design and Technology classes at Secondary school, I was tasked to manufacture, test and market a product. My idea was to build a Night lamp rocket out of light catcher acrylic that could be used at to illuminate a room. I created a product specification and design concepts which can be viewed below.
-IMAGE
+<figure>
+        <img src="https://i.imgur.com/EEAUDKG.png?1" alt="2D sketch" style="width:400px;height:600px;"/>
+        <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Design concept</strong></figcaption>
+    </figure>
+
 </p>
 
 <h3><a id="Discs">Creating the acrylic discs</a></h3>
-<p>I started of by using Google SketchUp and drawing out the discs and fins that were the major components of the build  This step was crucia, because if the dimensions and sizing of any one of the discs were wrong, then none the rods holding them together would not have fit. I transferred the designs through to the departments laser cutter by exporting it as a .DFX file. Since it was a 2D design, the laser cutter would easily be able to process the drawings and begin the process of cutting out the shapes. After deciding to use light catcher acrylic, chose to set a theme of blue and orange as the colors. 
+<p>I started of by using Google SketchUp and drawing out the discs and fins that were the major components of the build. This step was crucial, because if the dimensions and sizing of any one of the discs were wrong, then none the rods holding them together would have fit. I transferred the designs through to the departments laser cutter by exporting it as a .DFX file. Since it was a 2D design, the laser cutter would easily be able to process the drawings and begin the process of cutting out the shapes. After deciding to use light catcher acrylic, I chose to set a theme of blue and orange as the colors. 
     <figure>
         <img src="https://i.imgur.com/igD3Vsv.png?1" alt="2D sketch" style="width:400px;height:225px;"/>
         <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>2D Sketch of discs using Google SketchUp</strong></figcaption>
@@ -29,7 +33,7 @@ IMAGE
     </figure>
 </p> 
 
-<p>After the disc had been cut out, I wanted to test out what the final product would look like according to the product specifications. Originally, the centerpiece (the discs and pipe) would be 30cm long and the discs 3cm apart from eachother, however after modelling this with the discs I wasnt happy with the look. I decided to reduce the dimensions to a 20cm centerpiece with the discs in between at 2 cm apart, which made the drastically improved the look. This did result in me having to recalibrate the other components in the build accordingly.
+<p>After the disc had been cut out, I wanted to test out what the final product would look like according to the product specifications. Originally, the centerpiece (the discs and pipe) would be 30cm long and the discs 3cm apart from eachother, however after modelling this with the discs I wasnt happy with the look. I decided to reduce the dimensions to a 20cm centerpiece with the discs in between at 2 cm apart, which drastically improved the look. This did result in me having to recalibrate the other components in the build accordingly.
 <figure>
     <img src="https://i.imgur.com/sp5BbTm.png?1" alt="Model" style="width:400px;height:300px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Modelling the center piece with the cut out discs</strong></figcaption>
@@ -49,7 +53,7 @@ IMAGE
 </figure>
 
 <h4>Using a silicone mould</h4>
-<p>Making the clay mold from hand was not easy and it did not look right. So using acrylic, I laser cutted 2 shapes to use as a support system to mold the clay around from.
+<p>Making the clay mold from hand was not easy and it did not look right. So using acrylic, I laser cut 2 shapes to use as a support system to mold the clay around from.
 <figure>
     <img src="https://i.imgur.com/Wc9uhPz.png?1" alt="process of building nose cone" style="width:400px;height:200px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Constructing support frame</strong></figcaption>
@@ -74,14 +78,14 @@ IMAGE
 </figure>
 </p>
 
-<p>I then place one of the discs onto the top of the base and drew in the holes to mark the points I needed to drill. Next using a circular drill bit, I drilled a hole into center of the top of the base to hold the fairy lights in, and a smaller wire hole on the underisde of the base to allow the wires to go through. Using a smaller drill bit, I drill three holes into the top again which would hold the acryllic rods. Unfortuantely, when drilling in one of the holes, the wood cracked and broke of leaving a gap.
+<p>I then placed one of the discs onto the top of the base and drew in the holes to mark the points I needed to drill. Next, using a circular drill bit, I drilled a hole into center of the top of the base to hold the fairy lights in, and a smaller wire hole on the underisde of the base to allow the wires to go through. Using a smaller drill bit, I drill three holes into the top again which would hold the acryllic rods. Unfortuantely, when drilling in one of the holes, the wood cracked and broke of leaving a gap.
 <figure>
     <img src="https://i.imgur.com/JHPw2iJ.png?1" alt="process of building base" style="width:350px;height:275px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Base after being drilled into</strong></figcaption>
 </figure>
 </p>
 
-<p>To create slits for the fins to go into, I drew 4 construction lines indicating where I needed to cut. To create the slits, I used a mortiser, and drilled holes along the lines. Using chisel I was then able to smooth out the line and make them straight. Since the smallest drill bit on the mortiser was still to large, the slits were also now too large. To combat this problem, I slotted the fins into the base and packed in and sanded down the spare space with wood. I then used a glue gun to secure them in place.
+<p>To create slits for the fins to go into, I drew 4 construction lines indicating where I needed to cut. To create the slits, I used a mortiser, and drilled holes along the lines. Using chisel I was then able to smooth out the line and make them straight. Since the smallest drill bit on the mortiser was still to large, the slits were also now too large. To combat this problem, I slotted the fins into the base and packed in the spare space with wood. I then used a glue gun to secure them in place.
 <figure>
     <img src="https://i.imgur.com/fX4Et8U.png?1" alt="process of building nose cone" style="width:475px;height:275px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Fins being slotted into the slits in the base</strong></figcaption>
@@ -107,7 +111,7 @@ IMAGE
 
 I asked my classmates and teachers for feedback on my Night Lamp Rocket, and these were the general comments and responses:
 <ul>
-    <li>Looked aesthetically pleasing in the light and in the dark.It was very bright when the lights were turned on</li>
+    <li>Looked aesthetically pleasing in the light and in the dark. It was very bright when the lights were turned on</li>
     <li>It was very sturdy, didn't have to worry about it falling apart</li>
     <li>Did not strike the users as a rocket in the dark since the base and nose cone didn't light up</li>   
     <li>Too many scratches and marks visisble when close up</li>

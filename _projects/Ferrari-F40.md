@@ -1,6 +1,6 @@
 ---
 name: Ferrari F40 in CAD
-tools: [Fusion 360, 3DS Max]
+tools: [Fusion 360]
 image: https://i.imgur.com/2laqpjO.png?1
 description: Rebuilding the Ferrari F40 in Fusion 360 using Form bodies and T-Splines!
 ---
@@ -61,7 +61,7 @@ To build the body I planned to entirely use T-Splines and draw sketches that wou
     <img src="https://i.imgur.com/qyEItZx.png?1" alt="Ferrari F40" style="width:600px;height:300px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Ferrari F40 wheel</strong></figcaption>
 </figure>
-I then moved to the front plane and started a new sketch to complete the bumper. I couldn't draw the whole bumper from the side since I would have been able to draw along the X-axis. I drew the sketch and made sure to edit all the points to satisfy the guidlines of the canvases. 
+I then moved to the front plane and started a new sketch to complete the bumper. I couldn't draw the whole bumper from the side since I wouldn't have been able to draw along the X-axis. I drew the sketch and made sure to edit all the points to satisfy the guidlines of the canvases. 
 <figure>
     <img src="https://i.imgur.com/tpOCVOg.png?1" alt="Ferrari F40" style="width:675px;height:200px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Ferrari F40 wheel</strong></figcaption>
@@ -84,7 +84,7 @@ Now that I've found the method I want to use to structure the body, I followed t
 </figure>
 
 <h3><a id="patching">Patching and thickening the panels</a></h3>
-Now that all the panels have been sketched seperately, next I needed to patch the sketches and turn them into surface body. However, a surface body cannot exist in real life because they will have a zero-thickness geometery. This will mean I will give each panel a thickness aswell. Below is an example using the front left fender.
+Now that all the panels have been sketched seperately, next I needed to patch the sketches and turn them into surface bodies. However, a surface body cannot exist in real life because they will have a zero-thickness geometery. This will mean I will give each panel a thickness aswell. Below is an example using the front left fender.
 <figure>
     <img src="https://i.imgur.com/M0mOCC7.png?1" alt="Ferrari F40" style="width:500px;height:225px;"/>
     <figcaption style="text-align: center; font-size: 15px; font-style: italic"><strong>Patching and thickening fender</strong></figcaption>
