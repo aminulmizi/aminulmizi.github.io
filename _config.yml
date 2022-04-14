@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Aminul Mizi
 description         : >-
-                      Hi I'm Aminul Mizi, Welcome to my portfolio! Check out my projects and see what I'm currently up to!
+                      Hi I'm Aminul Mizi, welcome to my portfolio! Check out my projects and see what I'm currently up to!
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : aminulmizi/aminulmizi.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
